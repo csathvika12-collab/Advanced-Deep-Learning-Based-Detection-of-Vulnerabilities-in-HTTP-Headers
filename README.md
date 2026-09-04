@@ -344,42 +344,6 @@ Future development will focus on:
 * **Tool Integration** – Integration with OWASP ZAP or enterprise security-testing pipelines.
 * **Automated Remediation** – Generating header-specific corrective recommendations.
 * **Robustness Testing** – Adversarial testing, distribution-shift analysis, and evasion resilience.
-
----
-
-## 📁 Suggested Project Structure
-
-```text
-HTTP-Header-Vulnerability-Detection/
-│
-├── dataset/
-│   ├── raw/
-│   └── processed/
-│
-├── preprocessing/
-│   └── preprocessing.py
-│
-├── models/
-│   ├── cnn_lstm/
-│   ├── transformer/
-│   ├── bilstm_attention/
-│   ├── svm/
-│   ├── xgboost/
-│   └── random_forest/
-│
-├── evaluation/
-│   ├── metrics/
-│   └── results/
-│
-├── notebooks/
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
-> **Note:** Adjust the folder structure to match the actual files in your repository.
-
 ---
 
 ## 🛠️ Technologies
